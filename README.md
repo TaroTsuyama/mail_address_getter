@@ -1,0 +1,3 @@
+# mail_address_getter
+調整さんからダウンロードした参加者一覧のcsvを読み込んで
+名簿(mail_sample.html)からメールアドレスを取得してcsv出力します。
