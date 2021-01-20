@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="ja"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>sample</title>
+<meta name="viewport" content="width=device-width">
+<meta name="keywords" content="">
+<meta name="description" content="">
+  <link rel="stylesheet" type="text/css" href="./sample/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="./sample/layout.css">
+  <style type="text/css">
+  .bs-component + .bs-component {
+    margin-top: 1rem;
+  }
+  @media (min-width: 768px) {
+    .bs-docs-section {
+      margin-top: 8em;
+    }
+    .bs-component {
+      position: relative;
+    }
+    .bs-component .modal {
+      position: relative;
+      top: auto;
+      right: auto;
+      bottom: auto;
+      left: auto;
+      z-index: 1;
+      display: block;
+    }
+    .bs-component .modal-dialog {
+      width: 90%;
+    }
+    .bs-component .popover {
+      position: relative;
+      display: inline-block;
+      width: 220px;
+      margin: 20px;
+    }
+    .nav-tabs {
+      margin-bottom: 15px;
+    }
+    .progress {
+      margin-bottom: 10px;
+    }
+  }
+  </style>
+<link rel="stylesheet" type="text/css" href="./sample/style.css">
+<script src="./sample/jquery.js.ダウンロード"></script>
+<script src="./sample/script.js.ダウンロード"></script>
+<script src="./sample/jquery.smoothscroll.js.ダウンロード"></script>
+<script src="./sample/jquery.scrollshow.js.ダウンロード"></script>
+<script src="./sample/jquery.rollover.js.ダウンロード"></script>
+<script src="./sample/jquery.slidewide.js.ダウンロード"></script>
+<script>
+$(function($){
+    $('html').smoothscroll({easing : 'swing', speed : 1000, margintop : 10, headerfix : $('header')});
+    $('.totop').scrollshow({position : 500});
+    $('.slide').slidewide({
+        touch         : true,
+        touchDistance : '80',
+        autoSlide     : true,
+        repeat        : true,
+        interval      : 3000,
+        duration      : 500,
+        easing        : 'swing',
+        imgHoverStop  : true,
+        navHoverStop  : true,
+        prevPosition  : 0,
+        nextPosition  : 0,
+        viewSlide     : 1,
+        baseWidth     : 980,
+        navImg        : false,
+        navImgCustom  : false,
+        navImgSuffix  : ''
+    });
+    $('.slidePrev img').rollover();
+    $('.slideNext img').rollover();
+    });
+</script>
+
+<!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/css3-mediaqueries.js"></script>
+<![endif]-->
+</head>
+<body style="padding-top: 166px;">
+<header>
+    <div class="inner">
+        <div class="header_left">
+            <h1><a href="http://mail-sample.co.jp/"><img src="./sample/logo.png" alt="sample"></a></h1>
+        </div><!-- /.header_left -->
+        <div class="header_right">
+            <div class="header_nav">
+                <div class="header_contact"><a href="https://tools.lolipop.jp/mail/" target="_blank">メール</a></div><!-- /.header_require -->
+                <div class="header_require"><a href="https://helpfan.jp/user/job_c" target="_blank">よくある質問</a></div>
+            </div><!-- /.header_nav -->
+            
+        </div><!-- /.header_right -->
+    </div><!-- /.inner -->
+    <div id="spMenu"><span id="navBtn"><span id="navBtnIcon"></span></span></div>
+    <nav>
+        <div class="inner">
+            <ul class="gnav" style="top: 166px;">
+                <li><a href="http://mail-sample.co.jp/">ホーム</a></li>
+                <li><a href="http://mail-sample.co.jp/document/category/">ドキュメント</a></li>
+                <li><a href="http://mail-sample.co.jp/accounts/list/">名簿</a></li>
+                <li><a href="http://mail-sample.co.jp/news/">ニュース</a></li>
+                <li><a href="http://mail-sample.co.jp/instructive/">社長のつぶやき</a></li>
+                <li class="subnav"><a href="http://mail-sample.co.jp/accounts/list/">設定</a>
+                    <ul>
+                        <!--<li><a href="/accounts/password_change/">パスワード変更</a></li>-->
+                        <li><a href="http://mail-sample.co.jp/accounts/logout/">ログアウト</a></li>
+                    </ul>
+                </li>
+                <!-- <li class="subnav"><a href="top.html">各種申請</a>
+                    <ul>
+                        <li><a href="top.html">(予定)勤怠</a></li>
+                        <li><a href="top.html">(予定)経費精算</a></li>
+                        <li><a href="top.html">(予定)ワークフロー</a></li>
+                        <li><a href="top.html">(予定)施設予約</a></li>
+                        <li><a href="top.html">(予定)集計・アンケート</a></li>
+                    </ul>
+                </li>
+                
+                <li class="subnav"><a href="top.html">設定・管理</a>
+                    <ul>
+                        <li><a href="top.html">(管理)トピックス編集</a></li>
+                        <li><a href="top.html">(管理)メンバー編集</a></li>
+                        <li><a href="top.html">パスワード変更</a></li>
+                        <li><a href="top.html">バグ報告</a></li>
+                        <li><a href="index.html">ログアウト</a></li>
+                    </ul>
+                </li>   -->
+            </ul>
+        </div><!-- /.inner -->
+    </nav>
+</header>
+
+<div id="contents">
+    <div id="main">
+    
+    <div class="user">
+            
+          </div><div class="user">
+            
+            </div><div class="user">
+            
+            </div><div class="user">
+            
+            </div><div class="user">
+            
+            </div><div class="user">
+            
+            </div><div class="user">
+            
+            </div><div class="user">
+            
+            </div><div class="user">
+            
+            </div><div class="user">
+            
+            </div><div class="user">
+            
+            </div><div class="user">
+            
+            </div><div class="user">
+            
+            </div><div class="user">
+            
+            </div><div class="user">
+            
+            </div><div class="user">
+            
+            </div><div class="user">
+            
+            </div><div class="user">
+            
+            </div><div class="user">
+            
+            </div><div class="user">
+            
+            </div><div class="user">
+            
+            </div><div class="user">
+            
+            </div><div class="user">
+            
+            </div><div class="user">
+            
+            </div><div class="user">
+            
+            </div><div class="user">
+            
+            </div><div class="user">
+            
+            </div><div class="user">
+            
+            </div><div class="user">
+            
+            </div><div class="user">
+            
+            </div><div class="user">
+            
+            </div><div class="user">
+            
+            </div><div class="user">
+            
+            </div><div class="user">
+            
+            </div><div class="user">
+            
+            </div><div class="user">
+            
+            </div><div class="user">
+            
+            </div><div class="user">
+            
+            </div><div class="user">
+            
+            </div><div class="user">
+            
+            </div><div class="user">
+            
+            </div><div class="user">
+            
+            </div><div class="user">
+            
+            </div><div class="user">
+            
+            </div><div class="user">
+            
+            </div><div class="user">
+            
+            </div><div class="user">
+            
+            </div><div class="user">
+            
+            </div><div class="user">
+            
+            </div><div class="user">
+            
+            </div><div class="user">
+            
+            </div><div class="user">
+            
+            </div><div class="user">
+            
+            </div><div class="user">
+            
+            </div><div class="user">
+            
+            </div><div class="user">
+            
+            </div><div class="user">
+            
+            </div><div class="user">
+            
+            </div><table>
+      <tbody><tr>
+        <th>社員番号</th>
+        <th>社員名</th>
+        <th>メールアドレス</th>
+        <th>ログイン状況</th>
+      </tr>
+      
+        <tr>
+          
+        </tr>
+      
+        <tr>
+          <td>1</td>
+            <td><a href="http://mail-sample.co.jp/accounts/list/1/">志村 喬</a></td>
+            <td>shimura-takashi@mail-sample.co.jp</td>
+            <td>
+                
+                    <p>ログイン済み</p>
+                
+            </td>
+            
+          
+        </tr>
+        <tr>
+          <td>2</td>
+            <td><a href="http://mail-sample.co.jp/accounts/list/1/">三船 敏郎</a></td>
+            <td>mifune-toshiro@mail-sample.co.jp</td>
+            <td>
+                
+                    <p>ログイン済み</p>
+                
+            </td>
+            
+          
+        </tr>
+        <tr>
+          <td>3</td>
+            <td><a href="http://mail-sample.co.jp/accounts/list/1/">木村 功</a></td>
+            <td>kimura-isao@mail-sample.co.jp</td>
+            <td>
+                
+                    <p>ログイン済み</p>
+                
+            </td>
+            
+          
+        </tr>
+        <tr>
+          <td>4</td>
+            <td><a href="http://mail-sample.co.jp/accounts/list/1/">稲葉 義男</a></td>
+            <td>inaba-yoshio@mail-sample.co.jp</td>
+            <td>
+                
+                    <p>ログイン済み</p>
+                
+            </td>
+            
+          
+        </tr>
+        <tr>
+          <td>5</td>
+            <td><a href="http://mail-sample.co.jp/accounts/list/1/">加東 大介</a></td>
+            <td>kato-daisuke@mail-sample.co.jp</td>
+            <td>
+                
+                    <p>ログイン済み</p>
+                
+            </td>
+            
+          
+        </tr>
+        <tr>
+          <td>6</td>
+            <td><a href="http://mail-sample.co.jp/accounts/list/1/">千秋 実</a></td>
+            <td>chiaki-minoru@mail-sample.co.jp</td>
+            <td>
+                
+                    <p>ログイン済み</p>
+                
+            </td>
+            
+          
+        </tr>
+        <tr>
+          <td>7</td>
+            <td><a href="http://mail-sample.co.jp/accounts/list/1/">宮口 精二</a></td>
+            <td>miyaguchi-seiji@mail-sample.co.jp</td>
+            <td>
+                
+                    <p>ログイン済み</p>
+                
+            </td>
+            
+          
+        </tr>
+
+      
+    </tbody></table>
+    </div>
+</div>
+
+
+<footer>
+    <div class="footmenu">
+        <ul>
+            <li><a href="http://mail-sample.co.jp/">ホーム</a></li>
+            <li><a href="http://mail-sample.co.jp/">サイトポリシーについて</a></li>
+            <li><a href="http://mail-sample.co.jp/">個人情報ポリシーについて</a></li>
+            <li><a href="http://mail-sample.co.jp/">バグ報告</a></li>
+            <li><a href="http://mail-sample.co.jp/">サイトマップ</a></li>
+        </ul>
+    </div><!-- /.footmenu -->
+    <div class="copyright">Copyright © 2019 - 2021 sample All Rights Reserved.</div><!-- /.copyright -->
+</footer>
+
+<div class="totop" style="display: none;"><a href="http://mail-sample.co.jp/accounts/list/#"><img src="./sample/totop.png" alt="前のページに戻る"></a></div><!-- /.totop -->
+
+</body></html>
