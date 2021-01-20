@@ -52,5 +52,4 @@ mail_list = []
 if len(parser.table_data) > 0:
     for data in parser.table_data:
         if len(data) >= 3:
-            # mail_list.append([data[0],data[1].split(" "),data[2]])
             mail_list.append([data[0],data[1],data[2]])
